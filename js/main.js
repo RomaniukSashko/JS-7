@@ -17,8 +17,8 @@ console.log(vegetables);
 const numbers = [3, 8, 35, 4, 1];
 let sum = 0;
 
-for (let k = 0; k < numbers.length; k += 1){
-    sum += numbers[k];
+for (let i = 0; i < numbers.length; i += 1){
+    sum += numbers[i];
 }
 
 console.log(sum);
@@ -37,11 +37,11 @@ for (let i = 0; i < fourth.length; i += 1) {
 
 const countries = ["UK", "USA", "Australia", "Canada", "New Zealand"];
 
-for (let j = 0; j < countries.length; j += 1) {
-    if (countries[j].length <= 5) {
+for (let i = 0; i < countries.length; i += 1) {
+    if (countries[i].length <= 5) {
         continue;
     }
-    console.log(countries[j]);
+    console.log(countries[i]);
 }
 
 // Створити масив з 10-ти чисел. 
@@ -50,9 +50,9 @@ for (let j = 0; j < countries.length; j += 1) {
 const sixth = [2, 93, 454, 232, 21, 12, 44, 123, 32, 64];
 let max = sixth[0];
 
-for (let k = 1; k < sixth.length; k += 1) {
-    if (sixth[k] > max) {
-        max = sixth[k];
+for (let i = 1; i < sixth.length; i += 1) {
+    if (sixth[i] > max) {
+        max = sixth[i];
     }
 }
 
